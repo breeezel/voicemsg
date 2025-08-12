@@ -1,0 +1,5 @@
+2025-08-11 22:45:01 | INFO | test_voip_server | Logging initialized. Log file: C:\Users\korol\Desktop\voicemsg\logs\test_voip_server.log
+2025-08-11 22:45:01 | INFO | test_voip_server | UDP Voice Relay running on 127.0.0.1:50123
+2025-08-11 22:45:01 | INFO | test_voip_server | New client ('127.0.0.1', 60792) joined stream 1
+2025-08-11 22:45:01 | INFO | test_voip_server | New client ('127.0.0.1', 60791) joined stream 1
+2025-08-11 22:45:01 | INFO | test_voip_server | Server stopped

@@ -1,0 +1,209 @@
+2025-08-12 02:01:05 | INFO | voip_server | Logging initialized. Log file: C:\Users\korol\Desktop\voicemsg\logs\voip_server.log
+2025-08-12 02:01:05 | INFO | voip_server | UDP Voice Relay running on 0.0.0.0:50010
+2025-08-12 02:02:20 | INFO | voip_server | New client ('192.168.1.64', 52068) joined stream 1
+2025-08-12 02:02:20 | INFO | voip_server | Client join: id=723679070 name=User70 addr=('192.168.1.64', 52068) stream=1
+2025-08-12 02:02:26 | INFO | voip_server | New client ('192.168.1.67', 53491) joined stream 1
+2025-08-12 02:02:26 | INFO | voip_server | Client join: id=531280349 name=User349 addr=('192.168.1.67', 53491) stream=1
+2025-08-12 02:02:57 | INFO | voip_server | New client ('192.168.1.67', 60515) joined stream 1
+2025-08-12 02:02:57 | INFO | voip_server | Client leave: req_id=531280349 current_id=None addr=('192.168.1.67', 60515)
+2025-08-12 02:02:57 | INFO | voip_server | New client ('192.168.1.67', 60516) joined stream 1
+2025-08-12 02:02:57 | INFO | voip_server | Client leave: req_id=531280349 current_id=None addr=('192.168.1.67', 60516)
+2025-08-12 02:02:58 | INFO | voip_server | New client ('192.168.1.67', 59147) joined stream 1
+2025-08-12 02:02:58 | INFO | voip_server | Client join: id=531280349 name=User349 addr=('192.168.1.67', 59147) stream=1
+2025-08-12 02:03:11 | INFO | voip_server | New client ('192.168.1.67', 59149) joined stream 1
+2025-08-12 02:03:11 | INFO | voip_server | Client leave: req_id=531280349 current_id=None addr=('192.168.1.67', 59149)
+2025-08-12 02:03:11 | INFO | voip_server | New client ('192.168.1.67', 59150) joined stream 1
+2025-08-12 02:03:11 | INFO | voip_server | Client leave: req_id=531280349 current_id=None addr=('192.168.1.67', 59150)
+2025-08-12 02:03:11 | INFO | voip_server | New client ('192.168.1.67', 59151) joined stream 1
+2025-08-12 02:03:11 | INFO | voip_server | Client join: id=531280349 name=User349 addr=('192.168.1.67', 59151) stream=1
+2025-08-12 02:03:16 | INFO | voip_server | New client ('192.168.1.64', 33789) joined stream 1
+2025-08-12 02:03:16 | INFO | voip_server | Client leave: req_id=723679070 current_id=None addr=('192.168.1.64', 33789)
+2025-08-12 02:03:16 | INFO | voip_server | New client ('192.168.1.64', 44436) joined stream 1
+2025-08-12 02:03:16 | INFO | voip_server | Client leave: req_id=723679070 current_id=None addr=('192.168.1.64', 44436)
+2025-08-12 02:03:17 | INFO | voip_server | New client ('192.168.1.64', 54665) joined stream 1
+2025-08-12 02:03:17 | INFO | voip_server | Client join: id=723679070 name=User70 addr=('192.168.1.64', 54665) stream=1
+2025-08-12 02:03:26 | INFO | voip_server | New client ('192.168.1.64', 54260) joined stream 1
+2025-08-12 02:03:26 | INFO | voip_server | Client leave: req_id=723679070 current_id=None addr=('192.168.1.64', 54260)
+2025-08-12 02:03:26 | INFO | voip_server | New client ('192.168.1.64', 43386) joined stream 1
+2025-08-12 02:03:26 | INFO | voip_server | Client leave: req_id=723679070 current_id=None addr=('192.168.1.64', 43386)
+2025-08-12 02:03:27 | INFO | voip_server | New client ('192.168.1.64', 40211) joined stream 1
+2025-08-12 02:03:27 | INFO | voip_server | Client join: id=723679070 name=User70 addr=('192.168.1.64', 40211) stream=1
+2025-08-12 02:03:30 | INFO | voip_server | New client ('192.168.1.64', 33299) joined stream 1
+2025-08-12 02:03:30 | INFO | voip_server | Client leave: req_id=723679070 current_id=None addr=('192.168.1.64', 33299)
+2025-08-12 02:03:30 | INFO | voip_server | New client ('192.168.1.64', 47472) joined stream 1
+2025-08-12 02:03:30 | INFO | voip_server | Client leave: req_id=723679070 current_id=None addr=('192.168.1.64', 47472)
+2025-08-12 02:03:31 | INFO | voip_server | New client ('192.168.1.64', 52160) joined stream 1
+2025-08-12 02:03:31 | INFO | voip_server | Client join: id=723679070 name=User70 addr=('192.168.1.64', 52160) stream=1
+2025-08-12 02:03:37 | INFO | voip_server | New client ('192.168.1.64', 36875) joined stream 1
+2025-08-12 02:03:37 | INFO | voip_server | Client leave: req_id=723679070 current_id=None addr=('192.168.1.64', 36875)
+2025-08-12 02:03:37 | INFO | voip_server | New client ('192.168.1.64', 57905) joined stream 1
+2025-08-12 02:03:37 | INFO | voip_server | Client leave: req_id=723679070 current_id=None addr=('192.168.1.64', 57905)
+2025-08-12 02:03:41 | INFO | voip_server | New client ('192.168.1.64', 53460) joined stream 1
+2025-08-12 02:03:41 | INFO | voip_server | Client join: id=723679070 name=User70 addr=('192.168.1.64', 53460) stream=1
+2025-08-12 02:03:50 | INFO | voip_server | New client ('192.168.1.64', 46035) joined stream 1
+2025-08-12 02:03:50 | INFO | voip_server | Client leave: req_id=723679070 current_id=None addr=('192.168.1.64', 46035)
+2025-08-12 02:03:50 | INFO | voip_server | New client ('192.168.1.64', 47080) joined stream 1
+2025-08-12 02:03:50 | INFO | voip_server | Client leave: req_id=723679070 current_id=None addr=('192.168.1.64', 47080)
+2025-08-12 02:03:53 | INFO | voip_server | New client ('192.168.1.64', 60926) joined stream 1
+2025-08-12 02:03:53 | INFO | voip_server | Client join: id=723679070 name=User70 addr=('192.168.1.64', 60926) stream=1
+2025-08-12 02:03:56 | INFO | voip_server | New client ('192.168.1.64', 36424) joined stream 1
+2025-08-12 02:03:56 | INFO | voip_server | Client leave: req_id=723679070 current_id=None addr=('192.168.1.64', 36424)
+2025-08-12 02:03:56 | INFO | voip_server | New client ('192.168.1.64', 34269) joined stream 1
+2025-08-12 02:03:56 | INFO | voip_server | Client leave: req_id=723679070 current_id=None addr=('192.168.1.64', 34269)
+2025-08-12 02:03:58 | INFO | voip_server | New client ('192.168.1.64', 33321) joined stream 1
+2025-08-12 02:03:58 | INFO | voip_server | Client join: id=723679070 name=User70 addr=('192.168.1.64', 33321) stream=1
+2025-08-12 02:03:59 | INFO | voip_server | New client ('192.168.1.64', 48565) joined stream 1
+2025-08-12 02:03:59 | INFO | voip_server | Client leave: req_id=723679070 current_id=None addr=('192.168.1.64', 48565)
+2025-08-12 02:03:59 | INFO | voip_server | New client ('192.168.1.64', 50389) joined stream 1
+2025-08-12 02:03:59 | INFO | voip_server | Client leave: req_id=723679070 current_id=None addr=('192.168.1.64', 50389)
+2025-08-12 02:03:59 | INFO | voip_server | New client ('192.168.1.64', 41617) joined stream 1
+2025-08-12 02:03:59 | INFO | voip_server | Client join: id=723679070 name=User70 addr=('192.168.1.64', 41617) stream=1
+2025-08-12 02:04:01 | INFO | voip_server | New client ('192.168.1.64', 56817) joined stream 1
+2025-08-12 02:04:01 | INFO | voip_server | Client leave: req_id=723679070 current_id=None addr=('192.168.1.64', 56817)
+2025-08-12 02:04:01 | INFO | voip_server | New client ('192.168.1.64', 33530) joined stream 1
+2025-08-12 02:04:01 | INFO | voip_server | Client leave: req_id=723679070 current_id=None addr=('192.168.1.64', 33530)
+2025-08-12 02:04:02 | INFO | voip_server | New client ('192.168.1.64', 52570) joined stream 1
+2025-08-12 02:04:02 | INFO | voip_server | Client join: id=723679070 name=User70 addr=('192.168.1.64', 52570) stream=1
+2025-08-12 02:04:03 | INFO | voip_server | New client ('192.168.1.64', 52904) joined stream 1
+2025-08-12 02:04:03 | INFO | voip_server | Client leave: req_id=723679070 current_id=None addr=('192.168.1.64', 52904)
+2025-08-12 02:04:03 | INFO | voip_server | New client ('192.168.1.64', 45910) joined stream 1
+2025-08-12 02:04:03 | INFO | voip_server | Client leave: req_id=723679070 current_id=None addr=('192.168.1.64', 45910)
+2025-08-12 02:04:03 | INFO | voip_server | New client ('192.168.1.64', 59276) joined stream 1
+2025-08-12 02:04:03 | INFO | voip_server | Client join: id=723679070 name=User70 addr=('192.168.1.64', 59276) stream=1
+2025-08-12 02:04:08 | INFO | voip_server | New client ('192.168.1.67', 53246) joined stream 1
+2025-08-12 02:04:08 | INFO | voip_server | Client leave: req_id=531280349 current_id=None addr=('192.168.1.67', 53246)
+2025-08-12 02:04:09 | INFO | voip_server | New client ('192.168.1.67', 53247) joined stream 1
+2025-08-12 02:04:09 | INFO | voip_server | Client leave: req_id=531280349 current_id=None addr=('192.168.1.67', 53247)
+2025-08-12 02:04:09 | INFO | voip_server | New client ('192.168.1.67', 59533) joined stream 1
+2025-08-12 02:04:09 | INFO | voip_server | Client join: id=531280349 name=User349 addr=('192.168.1.67', 59533) stream=1
+2025-08-12 02:04:14 | INFO | voip_server | New client ('192.168.1.67', 59535) joined stream 1
+2025-08-12 02:04:14 | INFO | voip_server | Client leave: req_id=531280349 current_id=None addr=('192.168.1.67', 59535)
+2025-08-12 02:04:14 | INFO | voip_server | New client ('192.168.1.67', 59536) joined stream 1
+2025-08-12 02:04:14 | INFO | voip_server | Client leave: req_id=531280349 current_id=None addr=('192.168.1.67', 59536)
+2025-08-12 02:04:15 | INFO | voip_server | New client ('192.168.1.67', 59537) joined stream 1
+2025-08-12 02:04:15 | INFO | voip_server | Client join: id=531280349 name=User349 addr=('192.168.1.67', 59537) stream=1
+2025-08-12 02:04:17 | INFO | voip_server | New client ('192.168.1.67', 59539) joined stream 1
+2025-08-12 02:04:17 | INFO | voip_server | Client leave: req_id=531280349 current_id=None addr=('192.168.1.67', 59539)
+2025-08-12 02:04:17 | INFO | voip_server | New client ('192.168.1.67', 59540) joined stream 1
+2025-08-12 02:04:17 | INFO | voip_server | Client leave: req_id=531280349 current_id=None addr=('192.168.1.67', 59540)
+2025-08-12 02:04:18 | INFO | voip_server | New client ('192.168.1.67', 59541) joined stream 1
+2025-08-12 02:04:18 | INFO | voip_server | Client join: id=531280349 name=User349 addr=('192.168.1.67', 59541) stream=1
+2025-08-12 02:04:19 | INFO | voip_server | New client ('192.168.1.67', 59543) joined stream 1
+2025-08-12 02:04:19 | INFO | voip_server | Client leave: req_id=531280349 current_id=None addr=('192.168.1.67', 59543)
+2025-08-12 02:04:19 | INFO | voip_server | New client ('192.168.1.67', 59544) joined stream 1
+2025-08-12 02:04:19 | INFO | voip_server | Client leave: req_id=531280349 current_id=None addr=('192.168.1.67', 59544)
+2025-08-12 02:04:19 | INFO | voip_server | New client ('192.168.1.67', 59545) joined stream 1
+2025-08-12 02:04:19 | INFO | voip_server | Client join: id=531280349 name=User349 addr=('192.168.1.67', 59545) stream=1
+2025-08-12 02:04:21 | INFO | voip_server | New client ('192.168.1.64', 50050) joined stream 1
+2025-08-12 02:04:21 | INFO | voip_server | Client leave: req_id=723679070 current_id=None addr=('192.168.1.64', 50050)
+2025-08-12 02:04:21 | INFO | voip_server | New client ('192.168.1.64', 57498) joined stream 1
+2025-08-12 02:04:21 | INFO | voip_server | Client leave: req_id=723679070 current_id=None addr=('192.168.1.64', 57498)
+2025-08-12 02:04:23 | INFO | voip_server | New client ('192.168.1.64', 54048) joined stream 1
+2025-08-12 02:04:23 | INFO | voip_server | Client join: id=723679070 name=User70 addr=('192.168.1.64', 54048) stream=1
+2025-08-12 02:04:30 | INFO | voip_server | New client ('192.168.1.67', 59547) joined stream 1
+2025-08-12 02:04:30 | INFO | voip_server | Client leave: req_id=531280349 current_id=None addr=('192.168.1.67', 59547)
+2025-08-12 02:04:30 | INFO | voip_server | New client ('192.168.1.67', 59548) joined stream 1
+2025-08-12 02:04:30 | INFO | voip_server | Client leave: req_id=531280349 current_id=None addr=('192.168.1.67', 59548)
+2025-08-12 02:05:39 | INFO | voip_server | New client ('192.168.1.64', 36690) joined stream 1
+2025-08-12 02:05:39 | INFO | voip_server | Client leave: req_id=723679070 current_id=None addr=('192.168.1.64', 36690)
+2025-08-12 02:05:39 | INFO | voip_server | New client ('192.168.1.64', 59889) joined stream 1
+2025-08-12 02:05:39 | INFO | voip_server | Client leave: req_id=723679070 current_id=None addr=('192.168.1.64', 59889)
+2025-08-12 02:15:02 | INFO | voip_server | Logging initialized. Log file: C:\Users\korol\Desktop\voicemsg\logs\voip_server.log
+2025-08-12 02:15:02 | INFO | voip_server | UDP Voice Relay running on 0.0.0.0:50010
+2025-08-12 02:18:30 | INFO | voip_server | New client ('192.168.1.67', 59408) joined stream 1
+2025-08-12 02:18:30 | INFO | voip_server | Client join: id=1329298733 name=User733 addr=('192.168.1.67', 59408) stream=1
+2025-08-12 02:18:52 | INFO | voip_server | New client ('192.168.1.64', 33619) joined stream 1
+2025-08-12 02:18:52 | INFO | voip_server | Client join: id=1147907257 name=User257 addr=('192.168.1.64', 33619) stream=1
+2025-08-12 02:19:26 | INFO | voip_server | New client ('192.168.1.64', 59091) joined stream 1
+2025-08-12 02:19:26 | INFO | voip_server | Client leave: req_id=1147907257 current_id=None addr=('192.168.1.64', 59091)
+2025-08-12 02:19:26 | INFO | voip_server | New client ('192.168.1.64', 60222) joined stream 1
+2025-08-12 02:19:26 | INFO | voip_server | Client leave: req_id=1147907257 current_id=None addr=('192.168.1.64', 60222)
+2025-08-12 02:19:35 | INFO | voip_server | New client ('192.168.1.64', 41329) joined stream 1
+2025-08-12 02:19:35 | INFO | voip_server | Client join: id=1147907257 name=User257 addr=('192.168.1.64', 41329) stream=1
+2025-08-12 02:19:39 | INFO | voip_server | New client ('192.168.1.67', 52023) joined stream 1
+2025-08-12 02:19:39 | INFO | voip_server | Client leave: req_id=1329298733 current_id=None addr=('192.168.1.67', 52023)
+2025-08-12 02:19:39 | INFO | voip_server | New client ('192.168.1.67', 52024) joined stream 1
+2025-08-12 02:19:39 | INFO | voip_server | Client leave: req_id=1329298733 current_id=None addr=('192.168.1.67', 52024)
+2025-08-12 02:19:47 | INFO | voip_server | New client ('192.168.1.67', 64449) joined stream 1
+2025-08-12 02:19:47 | INFO | voip_server | Client join: id=1329298733 name=User733 addr=('192.168.1.67', 64449) stream=1
+2025-08-12 02:19:51 | INFO | voip_server | New client ('192.168.1.64', 48644) joined stream 1
+2025-08-12 02:19:51 | INFO | voip_server | Client leave: req_id=1147907257 current_id=None addr=('192.168.1.64', 48644)
+2025-08-12 02:19:52 | INFO | voip_server | New client ('192.168.1.64', 44434) joined stream 1
+2025-08-12 02:19:52 | INFO | voip_server | Client leave: req_id=1147907257 current_id=None addr=('192.168.1.64', 44434)
+2025-08-12 02:20:12 | INFO | voip_server | New client ('192.168.1.64', 39249) joined stream 1
+2025-08-12 02:20:12 | INFO | voip_server | Client join: id=1147907257 name=User257 addr=('192.168.1.64', 39249) stream=1
+2025-08-12 02:20:16 | INFO | voip_server | New client ('192.168.1.64', 40023) joined stream 1
+2025-08-12 02:20:16 | INFO | voip_server | Client leave: req_id=1147907257 current_id=None addr=('192.168.1.64', 40023)
+2025-08-12 02:20:16 | INFO | voip_server | New client ('192.168.1.64', 50242) joined stream 1
+2025-08-12 02:20:16 | INFO | voip_server | Client leave: req_id=1147907257 current_id=None addr=('192.168.1.64', 50242)
+2025-08-12 02:20:20 | INFO | voip_server | New client ('192.168.1.64', 44111) joined stream 2
+2025-08-12 02:20:20 | INFO | voip_server | Client join: id=1147907257 name=User257 addr=('192.168.1.64', 44111) stream=2
+2025-08-12 02:20:26 | INFO | voip_server | New client ('192.168.1.67', 64567) joined stream 1
+2025-08-12 02:20:26 | INFO | voip_server | Client leave: req_id=1329298733 current_id=None addr=('192.168.1.67', 64567)
+2025-08-12 02:20:26 | INFO | voip_server | New client ('192.168.1.67', 64568) joined stream 1
+2025-08-12 02:20:26 | INFO | voip_server | Client leave: req_id=1329298733 current_id=None addr=('192.168.1.67', 64568)
+2025-08-12 02:20:44 | INFO | voip_server | New client ('192.168.1.67', 56114) joined stream 2
+2025-08-12 02:20:44 | INFO | voip_server | Client join: id=1329298733 name=User733 addr=('192.168.1.67', 56114) stream=2
+2025-08-12 02:20:49 | INFO | voip_server | New client ('192.168.1.64', 33014) joined stream 2
+2025-08-12 02:20:49 | INFO | voip_server | Client leave: req_id=1147907257 current_id=None addr=('192.168.1.64', 33014)
+2025-08-12 02:20:49 | INFO | voip_server | New client ('192.168.1.64', 34629) joined stream 2
+2025-08-12 02:20:49 | INFO | voip_server | Client leave: req_id=1147907257 current_id=None addr=('192.168.1.64', 34629)
+2025-08-12 02:20:57 | INFO | voip_server | New client ('192.168.1.64', 44378) joined stream 2
+2025-08-12 02:20:57 | INFO | voip_server | Client join: id=1147907257 name=breeezel addr=('192.168.1.64', 44378) stream=2
+2025-08-12 02:21:03 | INFO | voip_server | New client ('192.168.1.64', 41760) joined stream 2
+2025-08-12 02:21:03 | INFO | voip_server | Client leave: req_id=1147907257 current_id=None addr=('192.168.1.64', 41760)
+2025-08-12 02:21:03 | INFO | voip_server | New client ('192.168.1.64', 38354) joined stream 2
+2025-08-12 02:21:03 | INFO | voip_server | Client leave: req_id=1147907257 current_id=None addr=('192.168.1.64', 38354)
+2025-08-12 02:21:23 | INFO | voip_server | Client timed out: id=1329298733 addr=('192.168.1.67', 56114)
+2025-08-12 02:25:59 | INFO | voip_server | Logging initialized. Log file: C:\Users\korol\Desktop\voicemsg\logs\voip_server.log
+2025-08-12 02:25:59 | INFO | voip_server | UDP Voice Relay running on 0.0.0.0:50010
+2025-08-12 02:27:26 | INFO | voip_server | New client ('192.168.1.64', 33360) joined stream 1
+2025-08-12 02:27:26 | INFO | voip_server | Client join: id=-2062254054 name=breeezel addr=('192.168.1.64', 33360) stream=1
+2025-08-12 02:27:30 | INFO | voip_server | New client ('192.168.1.67', 51729) joined stream 1
+2025-08-12 02:27:30 | INFO | voip_server | Client join: id=207155874 name=User874 addr=('192.168.1.67', 51729) stream=1
+2025-08-12 02:27:35 | INFO | voip_server | New client ('192.168.1.67', 51731) joined stream 1
+2025-08-12 02:27:35 | INFO | voip_server | Client leave: req_id=207155874 current_id=None addr=('192.168.1.67', 51731)
+2025-08-12 02:27:35 | INFO | voip_server | New client ('192.168.1.67', 51732) joined stream 1
+2025-08-12 02:27:35 | INFO | voip_server | Client leave: req_id=207155874 current_id=None addr=('192.168.1.67', 51732)
+2025-08-12 02:27:37 | INFO | voip_server | New client ('192.168.1.64', 36944) joined stream 1
+2025-08-12 02:27:37 | INFO | voip_server | Client leave: req_id=-2062254054 current_id=None addr=('192.168.1.64', 36944)
+2025-08-12 02:27:37 | INFO | voip_server | New client ('192.168.1.64', 38033) joined stream 1
+2025-08-12 02:27:37 | INFO | voip_server | Client leave: req_id=-2062254054 current_id=None addr=('192.168.1.64', 38033)
+2025-08-12 02:27:45 | INFO | voip_server | New client ('192.168.1.64', 49111) joined stream 1
+2025-08-12 02:27:45 | INFO | voip_server | Client join: id=393969702 name=breeezel addr=('192.168.1.64', 49111) stream=1
+2025-08-12 02:27:48 | INFO | voip_server | New client ('192.168.1.67', 60259) joined stream 1
+2025-08-12 02:27:48 | INFO | voip_server | Client join: id=207155874 name=User874 addr=('192.168.1.67', 60259) stream=1
+2025-08-12 02:28:11 | INFO | voip_server | New client ('192.168.1.64', 44562) joined stream 1
+2025-08-12 02:28:11 | INFO | voip_server | Client leave: req_id=393969702 current_id=None addr=('192.168.1.64', 44562)
+2025-08-12 02:28:11 | INFO | voip_server | New client ('192.168.1.64', 39987) joined stream 1
+2025-08-12 02:28:11 | INFO | voip_server | Client leave: req_id=393969702 current_id=None addr=('192.168.1.64', 39987)
+2025-08-12 02:28:13 | INFO | voip_server | New client ('192.168.1.64', 49134) joined stream 1
+2025-08-12 02:28:13 | INFO | voip_server | Client join: id=393969702 name=breeezel addr=('192.168.1.64', 49134) stream=1
+2025-08-12 02:28:17 | INFO | voip_server | New client ('192.168.1.64', 52586) joined stream 1
+2025-08-12 02:28:17 | INFO | voip_server | Client leave: req_id=393969702 current_id=None addr=('192.168.1.64', 52586)
+2025-08-12 02:28:17 | INFO | voip_server | New client ('192.168.1.64', 43831) joined stream 1
+2025-08-12 02:28:17 | INFO | voip_server | Client leave: req_id=393969702 current_id=None addr=('192.168.1.64', 43831)
+2025-08-12 02:28:18 | INFO | voip_server | New client ('192.168.1.64', 46959) joined stream 1
+2025-08-12 02:28:18 | INFO | voip_server | Client join: id=393969702 name=breeezel addr=('192.168.1.64', 46959) stream=1
+2025-08-12 02:28:19 | INFO | voip_server | New client ('192.168.1.64', 41584) joined stream 1
+2025-08-12 02:28:19 | INFO | voip_server | Client leave: req_id=393969702 current_id=None addr=('192.168.1.64', 41584)
+2025-08-12 02:28:19 | INFO | voip_server | New client ('192.168.1.64', 45109) joined stream 1
+2025-08-12 02:28:19 | INFO | voip_server | Client leave: req_id=393969702 current_id=None addr=('192.168.1.64', 45109)
+2025-08-12 02:28:19 | INFO | voip_server | New client ('192.168.1.64', 49196) joined stream 1
+2025-08-12 02:28:19 | INFO | voip_server | Client join: id=393969702 name=breeezel addr=('192.168.1.64', 49196) stream=1
+2025-08-12 02:28:29 | INFO | voip_server | Client timed out: id=393969702 addr=('192.168.1.64', 49196)
+2025-08-12 02:28:37 | INFO | voip_server | New client ('192.168.1.64', 53513) joined stream 1
+2025-08-12 02:28:37 | INFO | voip_server | Client join: id=1848673830 name=breeezel addr=('192.168.1.64', 53513) stream=1
+2025-08-12 02:29:00 | INFO | voip_server | New client ('192.168.1.64', 38797) joined stream 1
+2025-08-12 02:29:00 | INFO | voip_server | Client leave: req_id=1848673830 current_id=None addr=('192.168.1.64', 38797)
+2025-08-12 02:29:00 | INFO | voip_server | New client ('192.168.1.64', 33136) joined stream 1
+2025-08-12 02:29:00 | INFO | voip_server | Client leave: req_id=1848673830 current_id=None addr=('192.168.1.64', 33136)
+2025-08-12 02:29:03 | INFO | voip_server | New client ('192.168.1.64', 57081) joined stream 1
+2025-08-12 02:29:03 | INFO | voip_server | Client join: id=1848673830 name=breeezel addr=('192.168.1.64', 57081) stream=1
+2025-08-12 02:29:15 | INFO | voip_server | New client ('192.168.1.64', 51442) joined stream 1
+2025-08-12 02:29:15 | INFO | voip_server | Client leave: req_id=1848673830 current_id=None addr=('192.168.1.64', 51442)
+2025-08-12 02:29:15 | INFO | voip_server | New client ('192.168.1.64', 58071) joined stream 1
+2025-08-12 02:29:15 | INFO | voip_server | Client leave: req_id=1848673830 current_id=None addr=('192.168.1.64', 58071)
+2025-08-12 03:29:21 | INFO | voip_server | Client timed out: id=207155874 addr=('192.168.1.67', 60259)
+2025-08-12 08:23:33 | INFO | voip_server | New client ('192.168.1.67', 63523) joined stream 1
+2025-08-12 09:41:10 | INFO | voip_server | Client timed out: id=None addr=('192.168.1.67', 63523)

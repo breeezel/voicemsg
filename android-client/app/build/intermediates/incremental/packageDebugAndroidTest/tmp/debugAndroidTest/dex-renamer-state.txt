@@ -1,0 +1,7 @@
+#Mon Aug 11 23:43:01 MSK 2025
+base.0=C\:\\Users\\korol\\Desktop\\voicemsg\\android-client\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeExtDexDebugAndroidTest\\classes.dex
+base.1=C\:\\Users\\korol\\Desktop\\voicemsg\\android-client\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\0\\classes.dex
+path.0=classes.dex
+path.1=0/classes.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex

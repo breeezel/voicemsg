@@ -1,0 +1,5 @@
+com.example.voicemsg.test.app-jetified-core-1.6.1-0 C:\Users\korol\.gradle\caches\8.9\transforms\948103904fdd863042ebabcf7187efa7\transformed\jetified-core-1.6.1\res
+com.example.voicemsg.test.app-androidTest-1 C:\Users\korol\Desktop\voicemsg\android-client\app\build\generated\res\resValues\androidTest\debug
+com.example.voicemsg.test.app-mergeDebugAndroidTestResources-2 C:\Users\korol\Desktop\voicemsg\android-client\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.voicemsg.test.app-mergeDebugAndroidTestResources-3 C:\Users\korol\Desktop\voicemsg\android-client\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.voicemsg.test.app-debugAndroidTest-4 C:\Users\korol\Desktop\voicemsg\android-client\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

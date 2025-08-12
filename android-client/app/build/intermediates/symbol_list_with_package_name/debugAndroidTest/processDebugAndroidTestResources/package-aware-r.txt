@@ -1,0 +1,3 @@
+com.example.voicemsg.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme
