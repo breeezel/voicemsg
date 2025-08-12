@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.voicemsg.app-mergeDebugResources-29:/values-v23/values-v23.xml",
+            "outputFile": "com.example.voicemsg.app-mergeDebugResources-36:/values-v23/values-v23.xml",
             "map": [
                 {
                     "source": "C:\\Users\\korol\\.gradle\\caches\\8.9\\transforms\\70eb638f060f5ed1c835ddc5a14bae32\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",

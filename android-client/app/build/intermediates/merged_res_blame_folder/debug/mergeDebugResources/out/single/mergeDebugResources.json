@@ -1,6 +1,22 @@
 [
     {
-        "merged": "com.example.voicemsg.app-debug-31:/layout_activity_main.xml.flat",
-        "source": "com.example.voicemsg.app-main-33:/layout/activity_main.xml"
+        "merged": "C:\\Users\\korol\\.gradle\\daemon\\8.9\\com.example.voicemsg.app-debug-38:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\korol\\.gradle\\daemon\\8.9\\com.example.voicemsg.app-main-40:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\korol\\.gradle\\daemon\\8.9\\com.example.voicemsg.app-debug-38:\\xml_file_paths.xml.flat",
+        "source": "C:\\Users\\korol\\.gradle\\daemon\\8.9\\com.example.voicemsg.app-main-40:\\xml\\file_paths.xml"
+    },
+    {
+        "merged": "com.example.voicemsg.app-debug-38:/layout_activity_main.xml.flat",
+        "source": "com.example.voicemsg.app-main-40:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\korol\\.gradle\\daemon\\8.9\\com.example.voicemsg.app-debug-38:\\drawable_ic_send_24.xml.flat",
+        "source": "C:\\Users\\korol\\.gradle\\daemon\\8.9\\com.example.voicemsg.app-main-40:\\drawable\\ic_send_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\korol\\.gradle\\daemon\\8.9\\com.example.voicemsg.app-debug-38:\\drawable_ic_add_24.xml.flat",
+        "source": "C:\\Users\\korol\\.gradle\\daemon\\8.9\\com.example.voicemsg.app-main-40:\\drawable\\ic_add_24.xml"
     }
 ]

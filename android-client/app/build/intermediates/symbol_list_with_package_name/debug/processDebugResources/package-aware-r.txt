@@ -2998,6 +2998,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable ic_add_24
 drawable ic_arrow_back_black_24
 drawable ic_call_answer
 drawable ic_call_answer_low
@@ -3016,6 +3017,7 @@ drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_search_black_24
+drawable ic_send_24
 drawable indeterminate_static
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
@@ -3190,6 +3192,8 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id btnAttach
+id btnSend
 id btnStart
 id btnStop
 id buttonPanel
@@ -3205,6 +3209,10 @@ id center_vertical
 id chain
 id chain2
 id chains
+id chatDrawer
+id chatHandle
+id chatRecycler
+id chatToolbar
 id checkbox
 id checked
 id chipStatus
@@ -3215,12 +3223,14 @@ id clip_horizontal
 id clip_vertical
 id clockwise
 id closest
+id coil_request_manager
 id collapseActionView
 id compress
 id confirm_button
 id constraint
 id container
 id content
+id contentContainer
 id contentPanel
 id contiguous
 id continuousVelocity
@@ -3260,6 +3270,7 @@ id dragLeft
 id dragRight
 id dragStart
 id dragUp
+id drawerLayout
 id dropdown_menu
 id easeIn
 id easeInOut
@@ -3267,6 +3278,7 @@ id easeOut
 id east
 id edge
 id editIp
+id editMessage
 id editName
 id editPort
 id editStream
@@ -3326,6 +3338,7 @@ id indeterminate
 id info
 id invisible
 id inward
+id is_pooling_container_tag
 id italic
 id item_touch_helper_previous_elevation
 id jumpToEnd
@@ -3451,6 +3464,7 @@ id pathRelative
 id peekHeight
 id percent
 id pin
+id pooling_container_listener_holder_tag
 id position
 id postLayout
 id pressed
@@ -5243,3 +5257,4 @@ styleable ViewPager2 android_orientation
 styleable ViewStubCompat android_id android_layout android_inflatedId
 styleable ViewTransition android_id SharedValue SharedValueId clearsTag duration ifTagNotSet ifTagSet motionInterpolator motionTarget onStateTransition pathMotionArc setsTag transitionDisable upDuration viewTransitionMode
 styleable include constraintSet
+xml file_paths

@@ -3,9 +3,14 @@ from logging.handlers import RotatingFileHandler
 from pathlib import Path
 
 
-def setup_logging(app_name: str = "voip_server", log_dir: Path | None = None) -> logging.Logger:
+def setup_logging(
+    app_name: str = "voip_server",
+    log_dir: Path | None = None,
+    include_console: bool = True,
+    level: int = logging.INFO,
+) -> logging.Logger:
     """
-    Configure and return a root logger with a rotating file handler and console output.
+    Configure and return a logger with a rotating file handler and optional console output.
 
     Windows-friendly. Uses pathlib for path manipulation.
     """
@@ -13,7 +18,7 @@ def setup_logging(app_name: str = "voip_server", log_dir: Path | None = None) ->
     if logger.handlers:
         return logger
 
-    logger.setLevel(logging.INFO)
+    logger.setLevel(level)
 
     # Resolve log directory
     if log_dir is None:
@@ -33,15 +38,15 @@ def setup_logging(app_name: str = "voip_server", log_dir: Path | None = None) ->
         filename=str(log_file), maxBytes=5 * 1024 * 1024, backupCount=3, encoding="utf-8"
     )
     file_handler.setFormatter(formatter)
-    file_handler.setLevel(logging.INFO)
-
-    # Console handler
-    console_handler = logging.StreamHandler()
-    console_handler.setFormatter(formatter)
-    console_handler.setLevel(logging.INFO)
+    file_handler.setLevel(level)
 
     logger.addHandler(file_handler)
-    logger.addHandler(console_handler)
+
+    if include_console:
+        console_handler = logging.StreamHandler()
+        console_handler.setFormatter(formatter)
+        console_handler.setLevel(level)
+        logger.addHandler(console_handler)
 
     logger.info("Logging initialized. Log file: %s", log_file)
     return logger
