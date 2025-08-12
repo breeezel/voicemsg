@@ -5,6 +5,7 @@ from pathlib import Path
 
 from server.src.udp_voice_server import UdpVoiceRelayServer
 from server.src.protocol import AudioPacket, PCM16_CODEC
+import json
 
 
 def run_server_background(ip: str, port: int) -> UdpVoiceRelayServer:
@@ -31,17 +32,36 @@ def test_basic_relay():
         receiver.bind((ip, 0))
         recv_addr = receiver.getsockname()
 
-        # Join stream by sending first packet from both
-        sender.sendto(build_packet(1, 1, b"hello"), (ip, port))
-        receiver.sendto(build_packet(1, 1, b"join"), (ip, port))
+        # Proper control join (kind=1 + JSON) from both sockets
+        join_sender = b"\x01" + json.dumps({"t": "join", "id": 1001, "name": "sender", "stream": 1}).encode("utf-8")
+        join_receiver = b"\x01" + json.dumps({"t": "join", "id": 1002, "name": "receiver", "stream": 1}).encode("utf-8")
+        sender.sendto(build_packet(1, 1, join_sender), (ip, port))
+        receiver.sendto(build_packet(1, 1, join_receiver), (ip, port))
 
         # Now send data from sender; expect receiver gets it
-        data = build_packet(1, 2, b"voice")
+        # Audio payload (kind=0 + bytes)
+        data = build_packet(1, 2, b"\x00voice")
         sender.sendto(data, (ip, port))
 
-        receiver.settimeout(1)
-        relayed, _ = receiver.recvfrom(2048)
-        assert relayed.endswith(b"voice"), "Тест провален: Реципиент не получил ожидаемые данные"
+        receiver.settimeout(1.5)
+        header_size = 14
+        got_audio = False
+        end_time = time.time() + 1.5
+        while time.time() < end_time:
+            try:
+                relayed, _ = receiver.recvfrom(4096)
+            except socket.timeout:
+                break
+            if len(relayed) <= header_size:
+                continue
+            payload = relayed[header_size:]
+            if not payload:
+                continue
+            # kind=0 -> audio
+            if payload[0] == 0 and relayed.endswith(b"voice"):
+                got_audio = True
+                break
+        assert got_audio, "Тест провален: Реципиент не получил ожидаемые данные"
         print("Тест успешно пройден")
     finally:
         server.stop()

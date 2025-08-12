@@ -1,9 +1,20 @@
 R_DEF: Internal format may change without notice
 local
+drawable ic_add_24
+drawable ic_send_24
+id btnAttach
+id btnSend
 id btnStart
 id btnStop
+id chatDrawer
+id chatHandle
+id chatRecycler
+id chatToolbar
 id chipStatus
+id contentContainer
+id drawerLayout
 id editIp
+id editMessage
 id editName
 id editPort
 id editStream
@@ -12,3 +23,4 @@ id progressMic
 id topAppBar
 layout activity_main
 style Theme.VoiceMsg
+xml file_paths

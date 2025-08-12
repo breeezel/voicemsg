@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.voicemsg.app-mergeDebugResources-29:/values-az/values-az.xml",
+            "outputFile": "com.example.voicemsg.app-mergeDebugResources-36:/values-az/values-az.xml",
             "map": [
                 {
                     "source": "C:\\Users\\korol\\.gradle\\caches\\8.9\\transforms\\926b1a6f50ec3bb9b89b9beb0a6ab676\\transformed\\appcompat-1.7.0\\res\\values-az\\values-az.xml",
